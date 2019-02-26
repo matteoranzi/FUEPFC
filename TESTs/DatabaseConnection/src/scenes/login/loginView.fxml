@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.login.LoginController">
+   <children>
+      <TextField fx:id="usernameTextField" layoutX="64.0" layoutY="95.0" promptText="Username" />
+      <PasswordField fx:id="passwordPasswordField" layoutX="64.0" layoutY="147.0" prefHeight="26.0" prefWidth="171.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="64.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="26.0" prefWidth="171.0" text="Login" />
+      <Label layoutX="345.0" layoutY="108.0" text="Login status" />
+      <Label fx:id="connectionStatusLabel" layoutX="345.0" layoutY="139.0" prefHeight="16.0" prefWidth="195.0" text="«none»" />
+      <Button fx:id="goToRegistrationButton" layoutX="357.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleGoToRegistrationButtonAction" prefHeight="26.0" prefWidth="171.0" text="Register now!" />
+      <Separator layoutX="291.0" layoutY="31.0" orientation="VERTICAL" prefHeight="338.0" prefWidth="18.0" />
+   </children>
+</AnchorPane>

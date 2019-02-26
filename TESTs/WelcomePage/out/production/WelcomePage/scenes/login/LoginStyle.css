@@ -1,0 +1,64 @@
+@import "../../resources/fonts/Poppins/Poppins.css";
+
+
+.mainBackground{
+    -fx-background-color: white;
+}
+
+.title{
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.text-field{
+    -fx-font-family: 'Poppins';
+    -fx-font-size: 15;
+    -fx-text-fill: #4d4d4d;
+}
+
+.signButton{
+    -fx-font-family: 'Poppins';
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-background-color: #1b6886;
+    -fx-text-fill: white;
+    -fx-background-radius: 50;
+}
+
+.forgotPasswordHyperLink{
+    -fx-font-family: Poppins;
+    -fx-font-size: 12;
+    -fx-text-fill: #1b6886;
+}
+
+.hyperlink:focused{
+    -fx-focus-color: transparent;
+    -fx-text-fill: #4d4d4d;
+}
+
+.hyperlink:visited{
+    -fx-focus-color: transparent;
+    -fx-text-fill: #4d4d4d;
+}
+
+.infoLabel{
+    -fx-font-family: Poppins;
+    -fx-font-size: 13;
+    -fx-text-fill: #4d4d4d;
+}
+
+.newAccountHyperLink{
+    -fx-font-family: Poppins;
+    -fx-font-size: 13;
+    -fx-text-fill: #1b6886;
+}
+
+.exitButton:hover{
+    -fx-rotate: 25;
+}
+
+.asd{
+    -fx-font-family: Poppins;
+}
