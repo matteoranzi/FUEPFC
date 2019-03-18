@@ -17,9 +17,9 @@ import javafx.stage.Stage;
 import models.users.User;
 
 import java.io.IOException;
-import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Calendar;
+import java.util.UUID;
 
 /**
  * Created by IntelliJ IDEA.
@@ -92,7 +92,7 @@ public class RegistrationController {
             registrationStatusLabel.setText("Passwords don't match");
             registrationStatusLabel.setTextFill(Color.RED);
         } else {
-            User user = new User();
+            User user = new User(UUID.randomUUID());
             user.setFirstName(firstName);
             user.setLastName(lastName);
             user.setUsername(username);

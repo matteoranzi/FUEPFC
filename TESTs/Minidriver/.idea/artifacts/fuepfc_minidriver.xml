@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fuepfc_minidriver">
+    <output-path>$PROJECT_DIR$/out/artifacts/fuepfc_minidriver</output-path>
+    <root id="archive" name="fuepfc_minidriver.jar">
+      <element id="module-output" name="Minidriver" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,34 @@
+GET http://natas4.natas.labs.overthewire.org
+Host: natas4.natas.labs.overthewire.org
+Referer: http://natas5.natas.labs.overthewire.org/
+Connection: keep-alive
+Cache-Control: max-age=0
+Authorization: Basic bmF0YXM0Olo5dGtSa1dtcHQ5UXI3WHJSNWpXUmtnT1U5MDFzd0Va
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __cfduid=d46331e9615aa8c1dda52a2910db782b41551721046; __utma=176859643.1272886178.1551721048.1551721048.1551721048.1; __utmc=176859643; __utmz=176859643.1551721048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=176859643.2.10.1551721048
+
+<> 2019-03-04T064542.200.html
+
+###
+
+GET http://natas4.natas.labs.overthewire.org
+Host: natas4.natas.labs.overthewire.org
+Referer: natas5.natas.labs.overthewire.org
+Connection: keep-alive
+Cache-Control: max-age=0
+Authorization: Basic bmF0YXM0Olo5dGtSa1dtcHQ5UXI3WHJSNWpXUmtnT1U5MDFzd0Va
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: __cfduid=d46331e9615aa8c1dda52a2910db782b41551721046; __utma=176859643.1272886178.1551721048.1551721048.1551721048.1; __utmc=176859643; __utmz=176859643.1551721048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=176859643.2.10.1551721048
+
+<> 2019-03-04T064506.200.html
+
+###
+

@@ -7,6 +7,7 @@ import org.springframework.security.crypto.bcrypt.BCrypt;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.UUID;
 
 /**
  * Created by IntelliJ IDEA.
@@ -34,10 +35,10 @@ public class UsersTableHelper {
         ArrayList<User> users = new ArrayList<>();
 
         try {
-            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM users");
+            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM " + FuepfcDbSchema.UsersTable.NAME);
 
             while (resultSet.next()) {
-                User user = new User();
+                User user = new User(UUID.fromString(resultSet.getString(FuepfcDbSchema.UsersTable.Cols.UUID)));
                 user.setFirstName(resultSet.getString(FuepfcDbSchema.UsersTable.Cols.FIRST_NAME));
                 user.setLastName(resultSet.getString(FuepfcDbSchema.UsersTable.Cols.LAST_NAME));
                 user.setUsername(resultSet.getString(FuepfcDbSchema.UsersTable.Cols.USERNAME));
@@ -62,6 +63,7 @@ public class UsersTableHelper {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(
                     "INSERT INTO " + FuepfcDbSchema.UsersTable.NAME + "(" +
+                            FuepfcDbSchema.UsersTable.Cols.UUID + "," +
                             FuepfcDbSchema.UsersTable.Cols.FIRST_NAME + "," +
                             FuepfcDbSchema.UsersTable.Cols.LAST_NAME + "," +
                             FuepfcDbSchema.UsersTable.Cols.USERNAME + "," +
@@ -69,17 +71,18 @@ public class UsersTableHelper {
                             FuepfcDbSchema.UsersTable.Cols.CRYPTED_PASSWORD + "," +
                             FuepfcDbSchema.UsersTable.Cols.PASSWORD_SALT + "," +
                             FuepfcDbSchema.UsersTable.Cols.REGISTRATION_DATE + ")" +
-                            " VALUES (?, ?, ?, ?, ?, ?, ?)");
+                            " VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 
             String salt = BCrypt.gensalt();
 
-            preparedStatement.setString(1, user.getFirstName());
-            preparedStatement.setString(2, user.getLastName());
-            preparedStatement.setString(3, user.getUsername());
-            preparedStatement.setString(4, user.getEmail());
-            preparedStatement.setString(5, BCrypt.hashpw(user.getPassword(), salt));
-            preparedStatement.setString(6, salt);
-            preparedStatement.setTimestamp(7, user.getRegistrationDate());
+            preparedStatement.setString(1, user.getUuid().toString());
+            preparedStatement.setString(2, user.getFirstName());
+            preparedStatement.setString(3, user.getLastName());
+            preparedStatement.setString(4, user.getUsername());
+            preparedStatement.setString(5, user.getEmail());
+            preparedStatement.setString(6, BCrypt.hashpw(user.getPassword(), salt));
+            preparedStatement.setString(7, salt);
+            preparedStatement.setTimestamp(8, user.getRegistrationDate());
 
             if (preparedStatement.executeUpdate() != 0) {
                 return Registration.SUCCESSFUL;
@@ -105,7 +108,7 @@ public class UsersTableHelper {
             PreparedStatement preparedStatement = connection.prepareStatement("SELECT " +
                     FuepfcDbSchema.UsersTable.Cols.CRYPTED_PASSWORD + ", " +
                     FuepfcDbSchema.UsersTable.Cols.PASSWORD_SALT +
-                    " FROM users WHERE username = ?");
+                    " FROM " + FuepfcDbSchema.UsersTable.NAME + " WHERE " + FuepfcDbSchema.UsersTable.Cols.USERNAME + " = ?");
 
             preparedStatement.setString(1, username);
 

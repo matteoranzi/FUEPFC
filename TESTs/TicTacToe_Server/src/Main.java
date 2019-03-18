@@ -1,4 +1,4 @@
-import network.TicTacToeServer;
+import tictactoe.ConnectionsManager;
 
 /**
  * Created by IntelliJ IDEA.
@@ -8,7 +8,7 @@ import network.TicTacToeServer;
  */
 public class Main {
     public static void main(String[] args) {
-        TicTacToeServer server = new TicTacToeServer();
-        server.start();
+        ConnectionsManager connectionsManager = new ConnectionsManager();
+        connectionsManager.start();
     }
 }

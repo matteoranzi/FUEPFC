@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="spring-security-crypto-3.1.2.release">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Libraries/spring-security-crypto-3.1.2.release.jar!/" />
+      <root url="jar:///usr/share/java/mysql.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fuepfc_minidriver">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Minidriver/out/artifacts/fuepfc_minidriver/fuepfc_minidriver.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

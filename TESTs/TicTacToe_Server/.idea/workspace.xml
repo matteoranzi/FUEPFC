@@ -1,8 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afca2c62-5d91-472d-8199-cfa9ea20e498" name="Default Changelist" comment="" />
+    <list default="true" id="afca2c62-5d91-472d-8199-cfa9ea20e498" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/libraries/java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/libraries/spring_security_crypto_3_1_2_release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/users/FuepfcDbSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/users/UsersTableHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/network/CommandsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/network/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/network/commands/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/network/commands/RegistrationCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/utils/AppParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyOwnLibrary/.idea/libraries/minidriver_client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyOwnLibrary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestMyOwnLibrary/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/TicTacToe_Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/resources/images/o_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/resources/images/x_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/game/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/game/gameStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/game/gameView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/lobby/LobbyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/lobby/lobbyStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/lobby/lobbyView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/CellStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/GameParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/TicTacToeClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/ConnectedMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/GameParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/InvalideMoveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/MatchStatusMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/MoveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/StartMatchMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/YourTurnMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/CellStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/ConnectionsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/GameParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/MatchManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/messages/InvalideMoveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/messages/MatchStatusMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/messages/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/messages/MoveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/messages/StartMatchMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tictactoe/messages/YourTurnMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/CommandSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/LoginCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/RegistrationCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/utils/AppParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../minidriver_client/src/com/fuepfc/minidriver/ClientMinidriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources/e21c4f4c-a66d-4712-8f01-afa754810d5a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources/e21c4f4c-a66d-4712-8f01-afa754810d5a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable$Cols.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable$Cols.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper$Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper$Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/models/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/models/users/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/FuepfcDbSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/FuepfcDbSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/UsersTableHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/models/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/models/users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/scenes/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/scenes/registration/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/FUEPFC_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/FUEPFC_Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$CellStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$CellStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/scenes/game/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/src/scenes/game/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe_Server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe_Server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe_Server/network/TicTacToeServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network/TicTacToeServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginView.fxml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,21 +109,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/network/TicTacToeServer.java">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="347">
+              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+              <folding>
+                <element signature="e#5411#5412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/ConnectionsManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/MatchManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/GameParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tictactoe/CellStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -34,29 +175,65 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cellStatus</find>
+      <find>TABLEsIZE</find>
+      <find>tableStatus</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/game/Match.java" />
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/game/models/Player.java" />
+        <option value="$PROJECT_DIR$/src/game/models/GamePlayer.java" />
+        <option value="$PROJECT_DIR$/src/game/models/FUEPFC_User.java" />
         <option value="$PROJECT_DIR$/src/network/TicTacToeServer.java" />
+        <option value="$PROJECT_DIR$/src/game/MatchManager.java" />
+        <option value="$PROJECT_DIR$/src/game/testHttp.http" />
+        <option value="$PROJECT_DIR$/src/delete.http" />
+        <option value="$PROJECT_DIR$/src/tictactoe/TicTacToeServerManager.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/Message.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/YourTurnMessage.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/ConnectedMessage.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/InvalideMoveMessage.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/StartMatchMessage.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/MoveMessage.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/CellStatus.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/GameParameters.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/messages/MatchStatusMessage.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/GameParameters.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/MatchManager.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/ConnectionsManager.java" />
+        <option value="$PROJECT_DIR$/src/tictactoe/Match.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
     <option name="y" value="27" />
-    <option name="width" value="950" />
-    <option name="height" value="789" />
+    <option name="width" value="960" />
+    <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,23 +246,153 @@
               <item name="TicTacToe_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TicTacToe_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TicTacToe_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TicTacToe_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TicTacToe_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551223349354" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552603193307" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TicTacToe_Client (copia)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://natas4.natas.labs.overthewire.org" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="natas4.natas.labs.overthewire.org" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="http://natas5.natas.labs.overthewire.org/" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Connection" />
+                <option name="value" value="keep-alive" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="max-age=0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bmF0YXM0Olo5dGtSa1dtcHQ5UXI3WHJSNWpXUmtnT1U5MDFzd0Va" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Upgrade-Insecure-Requests" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="gzip, deflate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Language" />
+                <option name="value" value="it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__cfduid=d46331e9615aa8c1dda52a2910db782b41551721046; __utma=176859643.1272886178.1551721048.1551721048.1551721048.1; __utmc=176859643; __utmz=176859643.1551721048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=176859643.2.10.1551721048" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://natas4.natas.labs.overthewire.org" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Host" />
+                <option name="value" value="natas4.natas.labs.overthewire.org" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="natas5.natas.labs.overthewire.org" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Connection" />
+                <option name="value" value="keep-alive" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="max-age=0" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Basic bmF0YXM0Olo5dGtSa1dtcHQ5UXI3WHJSNWpXUmtnT1U5MDFzd0Va" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Upgrade-Insecure-Requests" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="User-Agent" />
+                <option name="value" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Encoding" />
+                <option name="value" value="gzip, deflate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Accept-Language" />
+                <option name="value" value="it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="__cfduid=d46331e9615aa8c1dda52a2910db782b41551721046; __utma=176859643.1272886178.1551721048.1551721048.1551721048.1; __utmc=176859643; __utmz=176859643.1551721048.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=176859643.2.10.1551721048" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,7 +406,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="TicTacToe_Server" />
@@ -107,9 +414,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="delete#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/src/delete.http">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="HTTP Request.delete#1" />
       </list>
     </recent_temporary>
   </component>
@@ -124,62 +435,198 @@
       <option name="presentableId" value="Default" />
       <updated>1551221076753</updated>
       <workItem from="1551221083299" duration="1538000" />
+      <workItem from="1551250726399" duration="237000" />
+      <workItem from="1551253110617" duration="1538000" />
+      <workItem from="1551254664826" duration="2304000" />
+      <workItem from="1551305263932" duration="601000" />
+      <workItem from="1551548504591" duration="788000" />
+      <workItem from="1551705693201" duration="1201000" />
+      <workItem from="1551721061801" duration="867000" />
+      <workItem from="1551729833533" duration="218000" />
+      <workItem from="1551734838547" duration="1886000" />
+      <workItem from="1552591080369" duration="10408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1538000" />
+    <option name="totallyTimeSpent" value="21586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28175026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297062" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/models.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/testHttp.http" />
+    <entry file="file://$PROJECT_DIR$/src/delete.http" />
+    <entry file="file://$PROJECT_DIR$/src/fuepfc/FUEPFC_User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/network/TicTacToeServer.java">
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/GamePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="270">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/TicTacToeServerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/InvalideMoveMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/MoveMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/YourTurnMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/StartMatchMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/MatchStatusMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/GameParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/messages/ConnectedMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/ConnectionsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/CellStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/MatchManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tictactoe/Match.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding>
+            <element signature="e#5411#5412#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,10 +8,11 @@ package database.users;
  */
 public class FuepfcDbSchema {
     public static final class UsersTable{
-        public static final String NAME = "users";
+        public static final String NAME = "users_data";
 
         public static final class Cols{
             public static final String ID = "id";
+            public static final String UUID = "uuid";
             public static final String FIRST_NAME = "first_name";
             public static final String LAST_NAME = "last_name";
             public static final String EMAIL = "email";
@@ -19,7 +20,8 @@ public class FuepfcDbSchema {
             public static final String CRYPTED_PASSWORD = "crypted_password";
             public static final String PASSWORD_SALT = "password_salt";
             public static final String REGISTRATION_DATE  = "registration_date";
-
+            public static final String SESSION_KEY = "session_key";
+            public static final String SESSION_EXPIRATION_DATE = "session_expiration_date";
         }
     }
 }

@@ -1,3 +1,5 @@
+import com.fuepfc.network.CommandsManager;
+
 /**
  * Created by IntelliJ IDEA.
  * User: matteoranzi
@@ -6,6 +8,7 @@
  */
 public class Main {
     public static void main(String[] args) {
-
+        CommandsManager commandsManager = new CommandsManager();
+        commandsManager.start();
     }
 }

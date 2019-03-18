@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<AnchorPane prefHeight="479.0" prefWidth="885.0" styleClass="gameBackground" stylesheets="@gameStyle.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.game.GameController">
+   <children>
+      <JFXButton text="Restart" textFill="WHITE">
+         <font>
+            <Font name="DejaVu Sans Bold" size="30.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="gameAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="885.0" styleClass="gameBackground" stylesheets="@gameStyle.css">
+         <children>
+            <GridPane alignment="CENTER" layoutX="283.0" layoutY="60.0" prefHeight="320.0" prefWidth="320.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridCell prefHeight="107.0" prefWidth="107.0">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="first-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.columnIndex="1">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="second-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.columnIndex="2">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="third-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.rowIndex="1">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="fourth-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                     </styleClass>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="sixth-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.rowIndex="2">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="seventh-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="eighth-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <GridCell prefHeight="148.0" prefWidth="174.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <styleClass>
+                        <String fx:value="game-grid-cell" />
+                        <String fx:value="ninth-cell" />
+                     </styleClass>
+                  </GridCell>
+                  <ImageView fx:id="firstCell" fitHeight="78.0" fitWidth="83.0" onMouseClicked="#handleFirstCellMouseClicked" pickOnBounds="true" preserveRatio="true">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="secondCell" fitHeight="78.0" fitWidth="83.0" onMouseClicked="#handleSecondCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="fourthCell" fitHeight="78.0" fitWidth="81.0" onMouseClicked="#handleFourthCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="fifthCell" fitHeight="78.0" fitWidth="80.0" onMouseClicked="#handleFifthCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="thirdCell" fitHeight="78.0" fitWidth="88.0" onMouseClicked="#handleThirdCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="seventhCell" fitHeight="78.0" fitWidth="83.0" onMouseClicked="#handleSeventhCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="sixthCell" fitHeight="78.0" fitWidth="87.0" onMouseClicked="#handleSixthCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="eighthCell" fitHeight="78.0" fitWidth="82.0" onMouseClicked="#handleEighthCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <ImageView fx:id="ninthCell" fitHeight="78.0" fitWidth="86.0" onMouseClicked="#handleNinthCellMouseClicked" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </ImageView>
+               </children>
+               <styleClass>
+                  <String fx:value="game-grid-cell" />
+                  <String fx:value="first-cell" />
+               </styleClass>
+            </GridPane>
+            <HBox layoutX="31.0" layoutY="80.0" prefHeight="49.0" prefWidth="211.0" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="80.0">
+               <children>
+                  <Label prefHeight="49.0" prefWidth="231.0" text="Player 1" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans ExtraLight" size="40.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="player1TurnIcon" fitHeight="40.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/images/x_icon.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox layoutX="632.0" layoutY="80.0" prefHeight="49.0" prefWidth="224.0" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="80.0">
+               <children>
+                  <Label prefHeight="49.0" prefWidth="231.0" text="Player 2" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans ExtraLight" size="40.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="player2TurnIcon" fitHeight="45.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/images/o_icon.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Label layoutX="31.0" layoutY="149.0" text="Score:" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="632.0" layoutY="149.0" text="Score:" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1ScoreLabel" layoutX="117.0" layoutY="149.0" prefHeight="25.0" prefWidth="55.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2ScoreLabel" layoutX="717.0" layoutY="149.0" prefHeight="25.0" prefWidth="55.0" text="0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="matchResultAnchorPane" prefHeight="473.0" prefWidth="885.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="drawResultLabel" layoutX="326.0" layoutY="172.0" text="Draw" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="80.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1ResultLabel" layoutX="34.0" layoutY="220.0" text="You win!" textFill="#302f2f" AnchorPane.leftAnchor="30.0">
+               <font>
+                  <Font name="DejaVu Sans Bold Oblique" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2ResultLabel" layoutX="632.0" layoutY="220.0" text="You lose!" textFill="#c62733">
+               <font>
+                  <Font name="DejaVu Sans Bold Oblique" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="388.0" layoutY="391.0" onAction="#handleRestartButtonAction" text="Restart" textFill="WHITE" AnchorPane.bottomAnchor="30.0">
+         <font>
+            <Font name="DejaVu Sans Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

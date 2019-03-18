@@ -1,6 +1,7 @@
 package models.users;
 
 import java.sql.Timestamp;
+import java.util.UUID;
 
 /**
  * Created by IntelliJ IDEA.
@@ -11,6 +12,7 @@ import java.sql.Timestamp;
 public class User {
     public static final boolean VALID = true;
 
+    private final UUID uuid;
     private String firstName;
     private String lastName;
     private String username;
@@ -18,12 +20,20 @@ public class User {
     private String password;
     private Timestamp registrationDate;
 
+    public User(UUID uuid) {
+        this.uuid = uuid;
+    }
+
     public boolean validate() {
         if (!firstName.equals("") && !lastName.equals("") && !username.equals("") && !email.equals("") && !password.equals("") && registrationDate != null) {
             return VALID;
         }
 
         return !VALID;
+    }
+
+    public UUID getUuid() {
+        return this.uuid;
     }
 
     public String getFirstName() {
