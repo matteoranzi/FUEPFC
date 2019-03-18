@@ -19,15 +19,22 @@ import java.net.UnknownHostException;
 public class Minidriver4Server {
     private InetAddress fuepfcServerAddress;
     private int fuefpcServerPort;
+    private int gameServerPort;
 
     public Minidriver4Server(String[] parameters){
         try {
             this.fuepfcServerAddress = InetAddress.getByName(parameters[0]);
             this.fuefpcServerPort = Integer.valueOf(parameters[1]);
 
+            this.gameServerPort = Integer.valueOf(parameters[2]);
+
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
+    }
+
+    public int getGameServerPort() {
+        return this.gameServerPort;
     }
 
     public void setWinner(User user){

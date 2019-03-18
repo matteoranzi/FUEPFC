@@ -1,9 +1,8 @@
 package com.fuepfc.network;
 
+import com.fuepfc.models.Game;
 import com.fuepfc.models.User;
-import com.fuepfc.network.commands.LoginCommand;
-import com.fuepfc.network.commands.RegistrationCommand;
-import com.fuepfc.network.commands.RegistrationResponseCommand;
+import com.fuepfc.network.commands.*;
 import com.fuepfc.network.commands.RegistrationResponseCommand.Registration;
 import com.fuepfc.utils.AppParameters;
 
@@ -11,6 +10,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.ArrayList;
 
 /**
  * Created by IntelliJ IDEA.
@@ -20,41 +20,33 @@ import java.net.Socket;
  */
 public class CommandSender {
     public User sendLoginCommand(LoginCommand loginCommand) {
-        User user = null;
+        return (User) sendCommand(loginCommand);
+    }
+
+    public Registration sendRegistrationCommand(RegistrationCommand registrationCommand) {
+        return ((RegistrationResponseCommand) sendCommand(registrationCommand)).getRegistration();
+    }
+
+    public ArrayList<Game> sendAvailableGamesRequestCommand(AvailableGamesRequestCommand availableGamesRequestCommand) {
+        return ((AvailableGamesResponseCommand) sendCommand(availableGamesRequestCommand)).getGames();
+    }
+
+    private Object sendCommand(Command command) {
+        Object response = null;
 
         try {
             Socket socket = new Socket(AppParameters.SERVER_IP, AppParameters.TCP_SERVER_PORT);
 
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
-            oos.writeObject(loginCommand);
+            oos.writeObject(command);
 
             ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
-            user = (User) ois.readObject();
+            response = ois.readObject();
 
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
 
-        return user;
-    }
-
-    public Registration sendRegistrationCommand(RegistrationCommand registrationCommand){
-        Registration registration = Registration.ERROR;
-
-        try{
-            Socket socket = new Socket(AppParameters.SERVER_IP, AppParameters.TCP_SERVER_PORT);
-
-            ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
-            oos.writeObject(registrationCommand);
-
-            ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
-            RegistrationResponseCommand registrationResponseCommand = (RegistrationResponseCommand) ois.readObject();
-            registration = registrationResponseCommand.getRegistration();
-
-        }catch ( IOException | ClassNotFoundException e){
-            e.printStackTrace();
-        }
-
-        return registration;
+        return response;
     }
 }

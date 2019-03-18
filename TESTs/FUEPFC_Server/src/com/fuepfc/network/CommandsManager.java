@@ -1,12 +1,9 @@
 package com.fuepfc.network;
 
-import com.fuepfc.network.commands.RegistrationResponseCommand;
+import com.fuepfc.network.commands.*;
 import com.fuepfc.network.commands.RegistrationResponseCommand.Registration;
-import com.fuepfc.database.users.UsersTableHelper;
+import com.fuepfc.database.users_data.UsersTableHelper;
 import com.fuepfc.models.User;
-import com.fuepfc.network.commands.Command;
-import com.fuepfc.network.commands.LoginCommand;
-import com.fuepfc.network.commands.RegistrationCommand;
 import com.fuepfc.utils.AppParameters;
 
 import java.io.IOException;
@@ -14,7 +11,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.sql.SQLOutput;
 
 /**
  * Created by IntelliJ IDEA.
@@ -63,15 +59,46 @@ public class CommandsManager implements Runnable {
                 if (command instanceof LoginCommand) {
                     System.out.println("Command type: login");
                     handleLoginCommand((LoginCommand) command);
+
                 }else if (command instanceof RegistrationCommand){
                     System.out.println("Command type: registration");
                     handleRegistrationCommand((RegistrationCommand) command);
+
+                }else if(command instanceof MatchWinnerCommand){
+                    System.out.println("Command type: match winner");
+                    handleMatchWinnerCommand((MatchWinnerCommand) command);
+
+                }else if(command instanceof AvailableGamesRequestCommand){
+                    System.out.println("Command type: available games request");
+                    handleAvailableGamesRequestCommand((AvailableGamesRequestCommand) command);
+
+                }else if(command instanceof MatchScoresCommand){
+                    System.out.println("Command type: available games request");
+                    handleMatchScoresCommand((MatchScoresCommand) command);
+
                 }
 
                 socket.close();
             } catch (IOException | ClassNotFoundException e) {
                 e.printStackTrace();
             }
+        }
+
+        private void handleMatchScoresCommand(MatchScoresCommand matchScoresCommand){
+            if(matchScoresCommand != null){
+                System.out.println("User: " + matchScoresCommand.getUser().getUsername() + " -> point: " + matchScoresCommand.getScore());
+            }
+        }
+
+        private void handleMatchWinnerCommand(MatchWinnerCommand matchWinnerCommand){
+            if(matchWinnerCommand != null){
+                //check if the user sessionKey is valid
+
+            }
+        }
+
+        private void handleAvailableGamesRequestCommand(AvailableGamesRequestCommand command){
+
         }
 
         private void handleRegistrationCommand(RegistrationCommand registrationCommand) {

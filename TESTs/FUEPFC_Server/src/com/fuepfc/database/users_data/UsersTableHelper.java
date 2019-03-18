@@ -1,5 +1,6 @@
-package com.fuepfc.database.users;
+package com.fuepfc.database.users_data;
 
+import com.fuepfc.database.FuepfcDbSchema;
 import com.fuepfc.network.commands.RegistrationResponseCommand.Registration;
 import com.fuepfc.utils.AppParameters;
 import com.mysql.jdbc.MysqlDataTruncation;

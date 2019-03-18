@@ -2,117 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a04255f-4ce3-4a0c-bd16-abe9013d3b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spring_security_crypto_3_1_2_release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/database/users/FuepfcDbSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/database/users/UsersTableHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/minidriver/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationResponseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/.idea/artifacts/fuepfc_minidriver.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/client/Minidriver4Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/server/Minidriver4Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/network/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/network/commands/MatchScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/network/commands/MatchWinnerCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestMyOwnLibrary/.idea/libraries/minidriver_client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestMyOwnLibrary/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestMyOwnLibrary/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/TicTacToe_Client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/resources/images/o_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/resources/images/x_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/game/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/game/gameStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/game/gameView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/lobby/LobbyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/lobby/lobbyStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/scenes/lobby/lobbyView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/CellStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/GameParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/TicTacToeClientManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/ConnectedMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/GameParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/InvalideMoveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/MatchStatusMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/MoveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/StartMatchMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Client/src/tictactoe/messages/YourTurnMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/CellStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/ConnectionsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/GameParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/MatchManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/messages/InvalideMoveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/messages/MatchStatusMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/messages/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/messages/MoveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/messages/StartMatchMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/tictactoe/messages/YourTurnMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/CommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/RegistrationCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/RegistrationResponseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/utils/AppParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/home/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/home/homeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../delete/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources/e21c4f4c-a66d-4712-8f01-afa754810d5a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/dataSources/e21c4f4c-a66d-4712-8f01-afa754810d5a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable$Cols.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable$Cols.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/FuepfcDbSchema$UsersTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper$Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper$Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/database/users/UsersTableHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/models/users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/models/users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/out/production/DatabaseConnection/scenes/registration/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/FuepfcDbSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/FuepfcDbSchema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/database/users/UsersTableHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/models/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/models/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DatabaseConnection/src/scenes/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseConnection/src/scenes/registration/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchScoresCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchWinnerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/091aa38a-72d4-4f2e-99a6-57b8658a4fa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/091aa38a-72d4-4f2e-99a6-57b8658a4fa2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FUEPFC_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FUEPFC_Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$CellStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController$CellStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/out/production/TicTacToe/scenes/game/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe/src/scenes/game/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe/src/scenes/game/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe_Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe_Server/out/production/TicTacToe_Server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe_Server/out/production/TicTacToe_Server/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe_Server/out/production/TicTacToe_Server/network/TicTacToeServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe_Server/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TicTacToe_Server/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TicTacToe_Server/src/network/TicTacToeServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/FuepfcDbSchema$UsersDataTable$Cols.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/FuepfcDbSchema$UsersDataTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/FuepfcDbSchema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/UsersTableHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager$CommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager$CommandHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/database/users/FuepfcDbSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/database/FuepfcDbSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/database/users/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minidriver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minidriver/out/artifacts/fuepfc_minidriver/fuepfc_minidriver.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/out/artifacts/fuepfc_minidriver/fuepfc_minidriver.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minidriver/out/production/Minidriver/com/fuepfc/minidriver/server/Minidriver4Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/out/production/Minidriver/com/fuepfc/minidriver/server/Minidriver4Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/server/Minidriver4Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/server/Minidriver4Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WelcomePage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/com/fuepfc/network/CommandSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/com/fuepfc/network/CommandSender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/home/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/home/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/CommandSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/CommandSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/home/HomeController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,47 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationResponseCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="1316">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -205,37 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/minidriver/User.java">
+        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users/UsersTableHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://091aa38a-72d4-4f2e-99a6-57b8658a4fa2/schema/fuepfc/table/users_data">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="216">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -255,6 +107,11 @@
       <find>pas</find>
       <find>root</find>
       <find>authe</find>
+      <find>new login</find>
+      <find>instanceof</find>
+      <find>handleA</find>
+      <find>instance</find>
+      <find>handleMatchScoresComman</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -274,9 +131,17 @@
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationCommand.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/models/Registration.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/database/users/UsersTableHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationResponseCommand.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/minidriver/User.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchWinnerCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchScoresCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/models/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/database/users_data/FuepfcDbSchema.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGameResponseCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/database/FuepfcDbSchema.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" />
       </list>
     </option>
   </component>
@@ -297,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,6 +173,11 @@
             <path>
               <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,7 +191,15 @@
               <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="users_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
@@ -337,25 +216,31 @@
               <item name="network" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552912596121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552943922115" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FUEPFC_GAMES/BomberMan-master/BomberMan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -412,17 +297,19 @@
       <workItem from="1552591608690" duration="8000" />
       <workItem from="1552901110827" duration="6215000" />
       <workItem from="1552909808198" duration="753000" />
+      <workItem from="1552914011911" duration="11080000" />
+      <workItem from="1552932068762" duration="5664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24964000" />
+    <option name="totallyTimeSpent" value="41708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17022412" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28335112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -432,7 +319,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,10 +333,10 @@
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3293348" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.2497332" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32977587" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -459,11 +346,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FUEPFC_Server.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users/FuepfcDbSchema.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
@@ -480,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/LoginCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/091aa38a-72d4-4f2e-99a6-57b8658a4fa2/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -497,52 +378,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fuepfc/models/Registration.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users/UsersTableHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/games/game_3.txt" />
+    <entry file="file://$PROJECT_DIR$/resources/games/game_2.txt" />
+    <entry file="file://$PROJECT_DIR$/resources/games/game_1.txt" />
     <entry file="das://091aa38a-72d4-4f2e-99a6-57b8658a4fa2/schema/fuepfc/table/users_data">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/minidriver/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://091aa38a-72d4-4f2e-99a6-57b8658a4fa2/schema/fuepfc/table/games_data">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -553,6 +450,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://091aa38a-72d4-4f2e-99a6-57b8658a4fa2/schema/fuepfc/table/users_scores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/RegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://091aa38a-72d4-4f2e-99a6-57b8658a4fa2/schema/fuepfc/table/users_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/FuepfcDbSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -560,26 +485,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/models/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/LoginCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/minidriver/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchScoresCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchWinnerCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
