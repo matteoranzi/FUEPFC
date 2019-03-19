@@ -2,20 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/games_data/GamesTableHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/AddGamesToServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/com/fuepfc/database/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/com/fuepfc/database/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/com/fuepfc/database/FuepfcDbSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/com/fuepfc/database/helpers/GamesTableHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/com/fuepfc/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/scenes/home/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/scenes/home/homeView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/scenes/new_game/NewGameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddGamesToServer/src/scenes/new_game/newGameView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/helpers/GamesTableHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/resources/TrafficRacer_Server.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/games/TrafficRacer_Game.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/.idea/dataSources/091aa38a-72d4-4f2e-99a6-57b8658a4fa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/dataSources/091aa38a-72d4-4f2e-99a6-57b8658a4fa2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/database/users_data/UsersTableHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/database/users_data/UsersTableHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/FUEPFC_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/FUEPFC_Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/database/users_data/UsersTableHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/models/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/models/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager$CommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager$CommandHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/utils/AppParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/out/production/FUEPFC_Server/com/fuepfc/utils/AppParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/users_data/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/users_data/UsersTableHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/games_data/GamesTableHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/users_data/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/database/helpers/UsersTableHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/models/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/network/CommandsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/network/CommandsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/utils/AppParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FUEPFC_Server/src/com/fuepfc/utils/AppParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minidriver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WelcomePage/scenes/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WelcomePage/scenes/login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WelcomePage/scenes/home/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WelcomePage/scenes/home/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WelcomePage/scenes/home/homeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WelcomePage/scenes/home/homeView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/home/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/home/homeView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/home/homeView.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,11 +104,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scenes/login/LoginController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scenes/home/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="131" column="120" selection-start-line="131" selection-start-column="120" selection-end-line="131" selection-end-column="120" />
+            <state relative-caret-position="234">
+              <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +116,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scenes/home/HomeController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scenes/login/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="120" column="54" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -204,52 +235,10 @@
               <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WelcomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WelcomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WelcomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WelcomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WelcomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WelcomePage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WelcomePage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,32 +251,33 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552956332044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552980832973" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Libraries/jfoenix-8.0.7.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources/images" />
-      <recent name="$PROJECT_DIR$/src/resources/fonts/Poppins" />
-      <recent name="$PROJECT_DIR$/src/resources/fonts/" />
-      <recent name="$PROJECT_DIR$/src/resources/Poppins" />
-      <recent name="$PROJECT_DIR$/out/production/WelcomePage/resources/fonts" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/games" />
+      <recent name="$PROJECT_DIR$/src/com/fuepfc/network" />
+      <recent name="$PROJECT_DIR$/src/scenes/login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.fuepfc.network.commands" />
       <recent name="com.fuepfc.utils" />
       <recent name="com.fuepfc.models" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/fuepfc/network" />
-      <recent name="$PROJECT_DIR$/src/scenes/login" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/images" />
+      <recent name="$PROJECT_DIR$/src/resources/fonts/Poppins" />
+      <recent name="$PROJECT_DIR$/src/resources/fonts/" />
+      <recent name="$PROJECT_DIR$/src/resources/Poppins" />
+      <recent name="$PROJECT_DIR$/out/production/WelcomePage/resources/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,18 +395,19 @@
       <workItem from="1552592031302" duration="10000" />
       <workItem from="1552901328594" duration="5601000" />
       <workItem from="1552916735130" duration="1380000" />
-      <workItem from="1552920737772" duration="9566000" />
+      <workItem from="1552920737772" duration="10405000" />
+      <workItem from="1552979174342" duration="1644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56976000" />
+    <option name="totallyTimeSpent" value="59459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2828175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2860192" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,12 +480,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scenes/login/LoginView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/WelcomePage/images/FUEPFC_wallpaper.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -536,16 +527,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,12 +646,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scenes/home/homeView.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandSender.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,10 +665,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scenes/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="131" column="120" selection-start-line="131" selection-start-column="120" selection-end-line="131" selection-end-column="120" />
+        <state relative-caret-position="386">
+          <caret line="120" column="54" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -696,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scenes/home/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="234">
+          <caret line="37" column="44" lean-forward="true" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

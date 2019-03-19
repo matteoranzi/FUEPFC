@@ -1,10 +1,9 @@
-package com.fuepfc.database.users_data;
+package com.fuepfc.database.helpers;
 
 import com.fuepfc.database.FuepfcDbSchema;
 import com.fuepfc.network.commands.RegistrationResponseCommand.Registration;
 import com.fuepfc.utils.AppParameters;
 import com.mysql.jdbc.MysqlDataTruncation;
-import com.fuepfc.database.Config;
 import com.fuepfc.models.User;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
@@ -31,10 +30,11 @@ public class UsersTableHelper {
         ArrayList<User> users = new ArrayList<>();
 
         try {
-            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM users");
+            ResultSet resultSet = connection.createStatement().executeQuery("SELECT * FROM " + FuepfcDbSchema.UsersDataTable.NAME);
 
             while (resultSet.next()) {
                 User user = new User(UUID.fromString(resultSet.getString(FuepfcDbSchema.UsersDataTable.Cols.UUID)));
+
                 user.setFirstName(resultSet.getString(FuepfcDbSchema.UsersDataTable.Cols.FIRST_NAME));
                 user.setLastName(resultSet.getString(FuepfcDbSchema.UsersDataTable.Cols.LAST_NAME));
                 user.setUsername(resultSet.getString(FuepfcDbSchema.UsersDataTable.Cols.USERNAME));

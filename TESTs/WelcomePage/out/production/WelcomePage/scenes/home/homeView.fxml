@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -21,8 +22,16 @@
             <AnchorPane layoutX="21.0" layoutY="40.0" prefHeight="432.0" prefWidth="232.0" style="-fx-background-color: e0e0e0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <ListView id="availableGamesListView" layoutX="16.0" layoutY="46.0" prefHeight="430.0" prefWidth="232.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="22.0" layoutY="39.0" prefHeight="35.0" prefWidth="186.0" text="Traffic Race" />
                </children>
             </AnchorPane>
+            <Label layoutX="268.0" layoutY="27.0" text="Traffic Race">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="268.0" layoutY="63.0" text="Version: 1.0.0" />
+            <Button layoutX="662.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleLaunchButtonAction" text="Launch" />
          </children>
       </AnchorPane>
    </children>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="293.0" prefWidth="588.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.new_game.NewGameController">
+   <children>
+      <Label layoutX="66.0" layoutY="49.0" text="Game name" />
+      <TextField fx:id="gameNameTextField" layoutX="66.0" layoutY="73.0" prefHeight="26.0" prefWidth="209.0" />
+      <Label layoutX="302.0" layoutY="48.0" text="Game Version" />
+      <TextField fx:id="gameVersionTextField" layoutX="302.0" layoutY="72.0" prefHeight="26.0" prefWidth="209.0" />
+      <Button layoutX="66.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleSelectGameServerButtonAction" prefHeight="26.0" prefWidth="209.0" text="Select Game SERVER" />
+      <Button layoutX="302.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleSelectGameClientButtonAction" prefHeight="26.0" prefWidth="209.0" text="Select Game CLIENT" />
+      <Label layoutX="25.0" layoutY="234.0" text="Generate Game UUID: " />
+      <Label fx:id="generatedGameUuidLabel" layoutX="175.0" layoutY="234.0" text="«»" textFill="RED" />
+      <Label layoutX="25.0" layoutY="257.0" text="Preserve it! The Game UUID is essential to be able to update the game">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="64.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleAddGameButtonAction" prefHeight="26.0" prefWidth="449.0" text="Add Game" />
+   </children>
+</AnchorPane>

@@ -3,7 +3,7 @@ package com.fuepfc.network;
 import com.fuepfc.database.DatabaseConnection;
 import com.fuepfc.network.commands.*;
 import com.fuepfc.network.commands.RegistrationResponseCommand.Registration;
-import com.fuepfc.database.users_data.UsersTableHelper;
+import com.fuepfc.database.helpers.UsersTableHelper;
 import com.fuepfc.models.User;
 import com.fuepfc.utils.AppParameters;
 
@@ -26,6 +26,8 @@ public class CommandsManager implements Runnable {
             ServerSocket serverSocket = new ServerSocket(AppParameters.TCP_SERVER_PORT);
             System.out.println("Listening to port " + AppParameters.TCP_SERVER_PORT);
 
+            launchGamesServer();
+
             while (true) {
                 Socket socket = serverSocket.accept();
                 System.out.println("Receiving a new connection");
@@ -42,6 +44,17 @@ public class CommandsManager implements Runnable {
         Thread t = new Thread(this);
         //t.setDaemon(true);
         t.start();
+    }
+
+    private void launchGamesServer(){
+        String serverPath = (getClass().getResource("/resources/TrafficRacer_Server.jar").getPath());
+
+        try {
+            Runtime.getRuntime().exec("java -jar " + serverPath + " localhost 50001 6969");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private class CommandHandler implements Runnable {
