@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="612.0" styleClass="bodybg" stylesheets="@anchor.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proviamo1.TrafficRacer.TrafficController">
+      <children>
+      <AnchorPane layoutX="80.0" layoutY="50.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="452.0" style="-fx-background-color: #262626;">
+         <children>
+               <Button fx:id="btnTank" layoutX="114.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleBtnBomber" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: #E44E55;" styleClass="sceneBtn" text="BOMBERMAN">
+               <textFill>
+                  <LinearGradient endX="0.5285714285714286" endY="1.0" startX="0.5047619047619047" startY="0.5285714285714286">
+                     <stops>
+                        <Stop color="#e81a1a" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Button>
+               <Button fx:id="btnTraffic" layoutX="245.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleBtnTank" prefHeight="25.0" prefWidth="94.0" style="-fx-background-color: #00A07D;" styleClass="sceneBtn" text="TANK" AnchorPane.bottomAnchor="278.0" />
+            
+                           <TableView id="myTable" fx:id="myTable" layoutX="114.0" layoutY="65.0" prefHeight="200.0" prefWidth="225.0">
+                 <columns>
+                   <TableColumn id="id" fx:id="id" prefWidth="68.0" text="ID" />
+                   <TableColumn id="vittorie" fx:id="partite" prefWidth="77.0" text="PARTITE" />
+                   <TableColumn id="vittorie" fx:id="vittorie" text="VITTORIE" />
+                 </columns>
+               </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+   
+</AnchorPane>
