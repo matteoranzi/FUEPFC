@@ -194,6 +194,7 @@ public class LoginController {
                                 break;
                             case SUCCESSFUL:
                                 System.out.println("Successful");
+                                handleSignInHyperLinkAction(event);
                                 break;
                             case DUPLICATED_ENTRY:
                                 System.out.println("Username already exists");

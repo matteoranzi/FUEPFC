@@ -1,5 +1,6 @@
 package com.fuepfc.network;
 
+import com.fuepfc.database.DatabaseConnection;
 import com.fuepfc.network.commands.*;
 import com.fuepfc.network.commands.RegistrationResponseCommand.Registration;
 import com.fuepfc.database.users_data.UsersTableHelper;
@@ -111,7 +112,7 @@ public class CommandsManager implements Runnable {
                     System.out.println("User data sent");
                     oos.flush();
                 } else {
-                    UsersTableHelper usersTableHelper = new UsersTableHelper();
+                    UsersTableHelper usersTableHelper = new UsersTableHelper(DatabaseConnection.getInstance().getConnection());
 
                     String name = registrationCommand.getName();
                     String lastName = registrationCommand.getLastName();
@@ -142,7 +143,7 @@ public class CommandsManager implements Runnable {
                     System.out.println("User data sent");
                     oos.flush();
                 } else {
-                    UsersTableHelper usersTableHelper = new UsersTableHelper();
+                    UsersTableHelper usersTableHelper = new UsersTableHelper(DatabaseConnection.getInstance().getConnection());
                     User user = usersTableHelper.authenticateUser(loginCommand.getUsername(), loginCommand.getPassword());
                     System.out.println("Obtaining user data");
                     ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());

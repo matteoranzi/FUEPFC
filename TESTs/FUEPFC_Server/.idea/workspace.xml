@@ -2,35 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a04255f-4ce3-4a0c-bd16-abe9013d3b9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchScoresCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/network/commands/MatchWinnerCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/091aa38a-72d4-4f2e-99a6-57b8658a4fa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/091aa38a-72d4-4f2e-99a6-57b8658a4fa2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/database/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fuepfc/database/games_data/GamesTableHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FUEPFC_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FUEPFC_Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/FuepfcDbSchema$UsersDataTable$Cols.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/FuepfcDbSchema$UsersDataTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/FuepfcDbSchema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users/UsersTableHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users_data/UsersTableHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/database/users_data/UsersTableHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager$CommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager$CommandHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/network/CommandsManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/database/users/FuepfcDbSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/database/FuepfcDbSchema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/database/users/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/utils/AppParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FUEPFC_Server/com/fuepfc/utils/AppParameters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Minidriver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Minidriver/out/artifacts/fuepfc_minidriver/fuepfc_minidriver.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/out/artifacts/fuepfc_minidriver/fuepfc_minidriver.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Minidriver/out/production/Minidriver/com/fuepfc/minidriver/server/Minidriver4Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/out/production/Minidriver/com/fuepfc/minidriver/server/Minidriver4Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/server/Minidriver4Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Minidriver/src/com/fuepfc/minidriver/server/Minidriver4Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WelcomePage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/com/fuepfc/network/CommandSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/com/fuepfc/network/CommandSender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/home/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/home/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/CommandSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/com/fuepfc/network/CommandSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/out/production/WelcomePage/scenes/login/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/home/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WelcomePage/src/scenes/login/LoginController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,35 +55,63 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1316">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/games_data/GamesTableHelper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#376#377#0" expanded="true" />
+                    <element signature="e#420#421#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="347">
+                  <caret line="145" column="125" selection-start-line="145" selection-start-column="125" selection-end-line="145" selection-end-column="125" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#677#678#0" expanded="true" />
+                    <element signature="e#721#722#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Singleton" />
       </list>
     </option>
   </component>
@@ -124,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/Command.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/LoginMessage.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/CommandsHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/LoginCommand.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/models/User.java" />
@@ -141,6 +153,10 @@
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesRequestCommand.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/database/FuepfcDbSchema.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/utils/AppParameters.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/database/games_data/GamesTableHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/fuepfc/database/DatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java" />
       </list>
     </option>
@@ -151,7 +167,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="27" />
     <option name="width" value="930" />
     <option name="height" value="1053" />
@@ -206,21 +222,6 @@
               <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
-              <item name="network" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FUEPFC_Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FUEPFC_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fuepfc" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -234,7 +235,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552944172218" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552956332064" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FUEPFC_GAMES/BomberMan-master/BomberMan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -244,6 +245,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -298,18 +300,18 @@
       <workItem from="1552901110827" duration="6215000" />
       <workItem from="1552909808198" duration="753000" />
       <workItem from="1552914011911" duration="11080000" />
-      <workItem from="1552932068762" duration="5664000" />
+      <workItem from="1552932068762" duration="12596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41708000" />
+    <option name="totallyTimeSpent" value="48640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28335112" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28335112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://091aa38a-72d4-4f2e-99a6-57b8658a4fa2/schema/fuepfc/table/games_data">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -492,16 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/commands/AvailableGamesResponseCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -547,13 +532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -561,6 +543,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/games_data/GamesTableHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/database/users_data/UsersTableHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fuepfc/network/CommandsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="145" column="125" selection-start-line="145" selection-start-column="125" selection-end-line="145" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

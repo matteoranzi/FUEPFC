@@ -23,15 +23,8 @@ public class UsersTableHelper {
 
     private Connection connection;
 
-    public UsersTableHelper() {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-
-            connection = DriverManager.getConnection(Config.URL, Config.USERNAME, Config.PASSWORD);
-
-        } catch (SQLException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+    public UsersTableHelper(Connection connection) {
+        this.connection = connection;
     }
 
     public ArrayList<User> getUsers() {

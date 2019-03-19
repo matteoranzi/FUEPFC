@@ -9,5 +9,5 @@ package com.fuepfc.utils;
 public class AppParameters {
     public static final int TCP_SERVER_PORT = 50001;
 
-    public static final long SESSION_KEY_EXPIRATION_DURATION = 3600000; //1h in milliseconds
+    public static final long SESSION_KEY_EXPIRATION_DURATION = 1200000; //20m in milliseconds
 }

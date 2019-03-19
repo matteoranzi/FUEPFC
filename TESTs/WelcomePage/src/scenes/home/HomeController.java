@@ -35,7 +35,7 @@ public class HomeController {
         this.stage = stage;
         this.user = user;
 
-        games = commandSender.sendAvailableGamesRequestCommand(new AvailableGamesRequestCommand(user.getSessionKey()));
+       // games = commandSender.sendAvailableGamesRequestCommand(new AvailableGamesRequestCommand(user.getSessionKey()));
         usernameLbl.setText(user.getUsername());
     }
 }
