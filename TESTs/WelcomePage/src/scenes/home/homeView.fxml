@@ -23,7 +23,6 @@
                <children>
                   <ListView id="availableGamesListView" layoutX="16.0" layoutY="46.0" prefHeight="430.0" prefWidth="232.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                   <Label layoutX="22.0" layoutY="39.0" prefHeight="35.0" prefWidth="186.0" text="Traffic Race" />
-                  <Label layoutX="23.0" layoutY="84.0" prefHeight="35.0" prefWidth="186.0" text="Bomber Man" />
                </children>
             </AnchorPane>
             <Label fx:id="gameNameLabel" layoutX="268.0" layoutY="27.0" text="Traffic Race">

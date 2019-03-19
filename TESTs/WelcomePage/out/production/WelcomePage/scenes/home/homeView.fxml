@@ -25,13 +25,13 @@
                   <Label layoutX="22.0" layoutY="39.0" prefHeight="35.0" prefWidth="186.0" text="Traffic Race" />
                </children>
             </AnchorPane>
-            <Label layoutX="268.0" layoutY="27.0" text="Traffic Race">
+            <Label fx:id="gameNameLabel" layoutX="268.0" layoutY="27.0" text="Traffic Race">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
             </Label>
             <Label layoutX="268.0" layoutY="63.0" text="Version: 1.0.0" />
-            <Button layoutX="662.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleLaunchButtonAction" text="Launch" />
+            <Button fx:id="launchGameBtn" layoutX="662.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleLaunchButtonAction" text="Launch" />
          </children>
       </AnchorPane>
    </children>
