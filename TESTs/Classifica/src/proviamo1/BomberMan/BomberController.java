@@ -73,11 +73,11 @@ public class BomberController implements Initializable {
 
 
             // recupero i dati
-            rs = stmt.executeQuery("SELECT * from classificabomber order by vittorie DESC");
+            rs = stmt.executeQuery("select utenti.username, classificabomber.partite, classificabomber.vittorie from utenti, classificabomber where classificabomber.id = utenti.id order by classificabomber.vittorie desc");
             
             while(rs.next())
             {
-                data.add(new Player(rs.getString("id"), rs.getString("partite"), rs.getString("vittorie")));
+                data.add(new Player(rs.getString("username"), rs.getString("partite"), rs.getString("vittorie")));
                 System.out.println(rs.getString("partite"));
             }
 

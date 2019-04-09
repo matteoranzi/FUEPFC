@@ -16,8 +16,8 @@
             
                            <TableView id="myTable" fx:id="myTable" layoutX="114.0" layoutY="65.0" prefHeight="200.0" prefWidth="225.0">
                  <columns>
-                   <TableColumn id="id" fx:id="id" prefWidth="68.0" text="ID" />
-                   <TableColumn id="vittorie" fx:id="partite" prefWidth="77.0" text="PARTITE" />
+                   <TableColumn id="id" fx:id="id" prefWidth="73.0" text="USERNAME" />
+                   <TableColumn id="vittorie" fx:id="partite" prefWidth="72.0" text="PARTITE" />
                    <TableColumn id="vittorie" fx:id="vittorie" text="VITTORIE" />
                  </columns>
                </TableView>

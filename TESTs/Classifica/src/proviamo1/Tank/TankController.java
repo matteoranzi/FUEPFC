@@ -73,11 +73,11 @@ public class TankController implements Initializable {
 
 
             // recupero i dati
-            rs = stmt.executeQuery("SELECT * from classificatank order by vittorie DESC");
+            rs = stmt.executeQuery("select utenti.username, classificatank.partite, classificatank.vittorie from utenti, classificatank where classificatank.id = utenti.id order by classificatank.vittorie desc");
             
             while(rs.next())
             {
-                data.add(new Player(rs.getString("id"), rs.getString("partite"), rs.getString("vittorie")));
+                data.add(new Player(rs.getString("username"), rs.getString("partite"), rs.getString("vittorie")));
                 System.out.println(rs.getString("partite"));
             }
 
